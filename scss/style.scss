@@ -17,6 +17,7 @@ body {
     height: 100vh;
     overflow: hidden;
     position: relative;
+    perspective: 1300px;
 
     > video {
       width: 100%;
@@ -37,6 +38,8 @@ body {
       margin-left: -300px;
       margin-top: -400px;
       //   border: 1px solid lightcyan;
+      animation: panorama linear 30s infinite;
+      transform-style: preserve-3d;
 
       article {
         width: 100%;
@@ -44,11 +47,12 @@ body {
         position: absolute;
         top: 0px;
         left: 0px;
-        display: none;
+        backface-visibility: hidden;
+        // display: none;
 
-        &:nth-of-type(8) {
-          display: block;
-        }
+        // &:nth-of-type() {
+        //   display: block;
+        // }
 
         .inner {
           width: 100%;
@@ -56,7 +60,7 @@ body {
           > div {
             width: 100%;
             height: 100%;
-            background-color: rgba(255, 255, 255, 0.386);
+            background-color: rgba(255, 255, 255, 0.354);
             // border: 2px solid rgb(255, 255, 255);
             padding: 50px;
             position: relative;
@@ -72,6 +76,7 @@ body {
           }
         }
         &.item1 {
+          transform: rotateY(0deg) translateZ(-764px);
           .inner {
             div {
               width: 290px;
@@ -106,6 +111,7 @@ body {
           }
         }
         &.item2 {
+          transform: rotateY(45deg) translateZ(-764px);
           .inner {
             div {
               h2 {
@@ -134,6 +140,7 @@ body {
           }
         }
         &.item3 {
+          transform: rotateY(90deg) translateZ(-764px);
           .inner {
             div {
               width: 290px;
@@ -168,6 +175,7 @@ body {
           }
         }
         &.item4 {
+          transform: rotateY(135deg) translateZ(-764px);
           .inner {
             div {
               h2 {
@@ -196,6 +204,7 @@ body {
           }
         }
         &.item5 {
+          transform: rotateY(180deg) translateZ(-764px);
           .inner {
             div {
               width: 290px;
@@ -230,6 +239,7 @@ body {
           }
         }
         &.item6 {
+          transform: rotateY(225deg) translateZ(-764px);
           .inner {
             div {
               h2 {
@@ -258,6 +268,7 @@ body {
           }
         }
         &.item7 {
+          transform: rotateY(270deg) translateZ(-764px);
           .inner {
             div {
               width: 290px;
@@ -292,6 +303,7 @@ body {
           }
         }
         &.item8 {
+          transform: rotateY(315deg) translateZ(-764px);
           .inner {
             div {
               h2 {
@@ -321,5 +333,14 @@ body {
         }
       }
     }
+  }
+}
+
+@keyframes panorama {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
   }
 }
