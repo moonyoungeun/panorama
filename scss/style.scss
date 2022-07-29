@@ -1,0 +1,139 @@
+// Reset css
+@import "reset";
+
+/* font */
+//font name_Black Ops One , Lobster//
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+// common
+body {
+  background-color: black;
+  font: 17px/1.4 "Lobster";
+  color: rgb(255, 255, 255);
+
+  .wrap {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+    > video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      opacity: 0.7;
+    }
+
+    #circle {
+      width: 600px;
+      height: 800px;
+      left: 50%;
+      top: 50%;
+      position: absolute;
+      margin-left: -300px;
+      margin-top: -400px;
+      //   border: 1px solid lightcyan;
+
+      article {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: none;
+
+        &:nth-of-type(2) {
+          display: block;
+        }
+
+        .inner {
+          width: 100%;
+          height: 100%;
+          > div {
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.386);
+            // border: 2px solid rgb(255, 255, 255);
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.5s;
+
+            &:hover {
+              opacity: 1;
+              transform: scale(1.03);
+            }
+          }
+        }
+        &.item1 {
+          .inner {
+            div {
+              width: 290px;
+              height: 254px;
+              float: left;
+              margin-bottom: 20px;
+              text-align: center;
+              &:nth-of-type(odd) {
+                margin-right: 20px;
+              }
+              i {
+                color: aliceblue;
+                font-size: 100px;
+                opacity: 0.7;
+                transition: 0.5s;
+              }
+
+              h2 {
+                margin-top: 20px;
+                transition: 0.5s;
+              }
+
+              &:hover {
+                i,
+                h2 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  transform: scale(1.2);
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+        &.item2 {
+          .inner {
+            div {
+              h2 {
+                font: bold 24px/1;
+                color: aliceblue;
+              }
+              img {
+                width: 100%;
+                margin: 20px 0px 40px 0px;
+              }
+              h3 {
+                color: aliceblue;
+                margin-bottom: 10px;
+              }
+              p {
+                font: 18px/1.2;
+              }
+
+              &:hover {
+                h2,
+                h3 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
