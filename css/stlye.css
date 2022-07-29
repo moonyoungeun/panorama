@@ -31,7 +31,7 @@ body .wrap {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  perspective: 1300px;
+  perspective: 1400px;
 }
 body .wrap > video {
   width: 100%;
