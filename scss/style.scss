@@ -46,7 +46,7 @@ body {
         left: 0px;
         display: none;
 
-        &:nth-of-type(2) {
+        &:nth-of-type(8) {
           display: block;
         }
 
@@ -106,6 +106,192 @@ body {
           }
         }
         &.item2 {
+          .inner {
+            div {
+              h2 {
+                font: bold 24px/1;
+                color: aliceblue;
+              }
+              img {
+                width: 100%;
+                margin: 20px 0px 40px 0px;
+              }
+              h3 {
+                color: aliceblue;
+                margin-bottom: 10px;
+              }
+              p {
+                font: 18px/1.2;
+              }
+
+              &:hover {
+                h2,
+                h3 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                }
+              }
+            }
+          }
+        }
+        &.item3 {
+          .inner {
+            div {
+              width: 290px;
+              height: 254px;
+              float: left;
+              margin-bottom: 20px;
+              text-align: center;
+              &:nth-of-type(odd) {
+                margin-right: 20px;
+              }
+              i {
+                color: aliceblue;
+                font-size: 100px;
+                opacity: 0.7;
+                transition: 0.5s;
+              }
+
+              h2 {
+                margin-top: 20px;
+                transition: 0.5s;
+              }
+
+              &:hover {
+                i,
+                h2 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  transform: scale(1.2);
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+        &.item4 {
+          .inner {
+            div {
+              h2 {
+                font: bold 24px/1;
+                color: aliceblue;
+              }
+              img {
+                width: 100%;
+                margin: 20px 0px 40px 0px;
+              }
+              h3 {
+                color: aliceblue;
+                margin-bottom: 10px;
+              }
+              p {
+                font: 18px/1.2;
+              }
+
+              &:hover {
+                h2,
+                h3 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                }
+              }
+            }
+          }
+        }
+        &.item5 {
+          .inner {
+            div {
+              width: 290px;
+              height: 254px;
+              float: left;
+              margin-bottom: 20px;
+              text-align: center;
+              &:nth-of-type(odd) {
+                margin-right: 20px;
+              }
+              i {
+                color: aliceblue;
+                font-size: 100px;
+                opacity: 0.7;
+                transition: 0.5s;
+              }
+
+              h2 {
+                margin-top: 20px;
+                transition: 0.5s;
+              }
+
+              &:hover {
+                i,
+                h2 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  transform: scale(1.2);
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+        &.item6 {
+          .inner {
+            div {
+              h2 {
+                font: bold 24px/1;
+                color: aliceblue;
+              }
+              img {
+                width: 100%;
+                margin: 20px 0px 40px 0px;
+              }
+              h3 {
+                color: aliceblue;
+                margin-bottom: 10px;
+              }
+              p {
+                font: 18px/1.2;
+              }
+
+              &:hover {
+                h2,
+                h3 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                }
+              }
+            }
+          }
+        }
+        &.item7 {
+          .inner {
+            div {
+              width: 290px;
+              height: 254px;
+              float: left;
+              margin-bottom: 20px;
+              text-align: center;
+              &:nth-of-type(odd) {
+                margin-right: 20px;
+              }
+              i {
+                color: aliceblue;
+                font-size: 100px;
+                opacity: 0.7;
+                transition: 0.5s;
+              }
+
+              h2 {
+                margin-top: 20px;
+                transition: 0.5s;
+              }
+
+              &:hover {
+                i,
+                h2 {
+                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  transform: scale(1.2);
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+        &.item8 {
           .inner {
             div {
               h2 {

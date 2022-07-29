@@ -58,7 +58,7 @@ body .wrap #circle article {
   left: 0px;
   display: none;
 }
-body .wrap #circle article:nth-of-type(2) {
+body .wrap #circle article:nth-of-type(8) {
   display: block;
 }
 body .wrap #circle article .inner {
@@ -123,6 +123,141 @@ body .wrap #circle article.item2 .inner div p {
 }
 body .wrap #circle article.item2 .inner div:hover h2,
 body .wrap #circle article.item2 .inner div:hover h3 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+body .wrap #circle article.item3 .inner div {
+  width: 290px;
+  height: 254px;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body .wrap #circle article.item3 .inner div:nth-of-type(odd) {
+  margin-right: 20px;
+}
+body .wrap #circle article.item3 .inner div i {
+  color: aliceblue;
+  font-size: 100px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+body .wrap #circle article.item3 .inner div h2 {
+  margin-top: 20px;
+  transition: 0.5s;
+}
+body .wrap #circle article.item3 .inner div:hover i,
+body .wrap #circle article.item3 .inner div:hover h2 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+  transform: scale(1.2);
+  opacity: 1;
+}
+body .wrap #circle article.item4 .inner div h2 {
+  font: bold 24px/1;
+  color: aliceblue;
+}
+body .wrap #circle article.item4 .inner div img {
+  width: 100%;
+  margin: 20px 0px 40px 0px;
+}
+body .wrap #circle article.item4 .inner div h3 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+body .wrap #circle article.item4 .inner div p {
+  font: 18px/1.2;
+}
+body .wrap #circle article.item4 .inner div:hover h2,
+body .wrap #circle article.item4 .inner div:hover h3 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+body .wrap #circle article.item5 .inner div {
+  width: 290px;
+  height: 254px;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body .wrap #circle article.item5 .inner div:nth-of-type(odd) {
+  margin-right: 20px;
+}
+body .wrap #circle article.item5 .inner div i {
+  color: aliceblue;
+  font-size: 100px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+body .wrap #circle article.item5 .inner div h2 {
+  margin-top: 20px;
+  transition: 0.5s;
+}
+body .wrap #circle article.item5 .inner div:hover i,
+body .wrap #circle article.item5 .inner div:hover h2 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+  transform: scale(1.2);
+  opacity: 1;
+}
+body .wrap #circle article.item6 .inner div h2 {
+  font: bold 24px/1;
+  color: aliceblue;
+}
+body .wrap #circle article.item6 .inner div img {
+  width: 100%;
+  margin: 20px 0px 40px 0px;
+}
+body .wrap #circle article.item6 .inner div h3 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+body .wrap #circle article.item6 .inner div p {
+  font: 18px/1.2;
+}
+body .wrap #circle article.item6 .inner div:hover h2,
+body .wrap #circle article.item6 .inner div:hover h3 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+body .wrap #circle article.item7 .inner div {
+  width: 290px;
+  height: 254px;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+body .wrap #circle article.item7 .inner div:nth-of-type(odd) {
+  margin-right: 20px;
+}
+body .wrap #circle article.item7 .inner div i {
+  color: aliceblue;
+  font-size: 100px;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+body .wrap #circle article.item7 .inner div h2 {
+  margin-top: 20px;
+  transition: 0.5s;
+}
+body .wrap #circle article.item7 .inner div:hover i,
+body .wrap #circle article.item7 .inner div:hover h2 {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+  transform: scale(1.2);
+  opacity: 1;
+}
+body .wrap #circle article.item8 .inner div h2 {
+  font: bold 24px/1;
+  color: aliceblue;
+}
+body .wrap #circle article.item8 .inner div img {
+  width: 100%;
+  margin: 20px 0px 40px 0px;
+}
+body .wrap #circle article.item8 .inner div h3 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+body .wrap #circle article.item8 .inner div p {
+  font: 18px/1.2;
+}
+body .wrap #circle article.item8 .inner div:hover h2,
+body .wrap #circle article.item8 .inner div:hover h3 {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
 }
 
