@@ -18,7 +18,7 @@ body {
     height: 100vh;
     overflow: hidden;
     position: relative;
-    perspective: 1500px;
+    perspective: 2900px;
 
     > video {
       width: 120%;
@@ -38,12 +38,12 @@ body {
       background-color: aliceblue;
     }
 
-    .misic {
+    .food {
       position: absolute;
       font-size: 90px;
-      font-family: "Poiret One";
+      font-family: "Lobster";
       padding: 100px;
-      left: 70px;
+      left: 45px;
       top: -20px;
       text-shadow: 5px 8px 20px rgb(31, 31, 31);
     }
@@ -53,18 +53,18 @@ body {
       width: 250px;
       height: 60px;
       bottom: 200px;
-      left: 280px;
+      left: 220px;
       border-radius: 15px;
       background-color: aliceblue;
       opacity: 0.3;
       color: black;
       text-align: center;
       font-size: 38px;
-      font-family: "Poiret One";
+      font-family: "Lobster";
 
       &:hover {
         cursor: pointer;
-        font: 38px bold black;
+        font: 38px bold black "Lobster";
         background-color: aliceblue;
         opacity: 1;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.244);
@@ -76,18 +76,18 @@ body {
       width: 250px;
       height: 60px;
       bottom: 100px;
-      left: 280px;
+      left: 220px;
       border-radius: 15px;
       background-color: aliceblue;
       opacity: 0.3;
       color: black;
       text-align: center;
       font-size: 38px;
-      font-family: "Poiret One";
+      font-family: "Lobster";
 
       &:hover {
         cursor: pointer;
-        font: 38px bold black;
+        font: 38px bold black "Lobster";
         background-color: aliceblue;
         opacity: 1;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.244);
@@ -96,9 +96,9 @@ body {
 
     #circle {
       width: 600px;
-      height: 800px;
-      right: 10%;
-      top: 50%;
+      height: 700px;
+      right: 6%;
+      top: 53%;
       position: absolute;
       margin-left: -300px;
       margin-top: -400px;
@@ -160,14 +160,28 @@ body {
                 opacity: 0.7;
                 transition: 0.5s;
                 width: 100%;
-                height: 50px;
-                right: 30px;
+                // height: 80;
+                top: -58px;
+                align-items: center;
+
+                left: 0px;
               }
 
-              // h2 {
-              //   margin-top: 20px;
-              //   transition: 0.5s;
-              // }
+              .japen {
+                position: absolute;
+                opacity: 0.7;
+                transition: 0.5s;
+                width: 100%;
+                // height: 80;
+                top: -20px;
+                align-items: center;
+                left: 0px;
+              }
+
+              h2 {
+                margin-top: 10px;
+                transition: 0.5s;
+              }
 
               &:hover {
                 i,
@@ -188,24 +202,25 @@ body {
               height: 600px;
               h2 {
                 font: bold 24px/1;
-                color: aliceblue;
+                color: rgb(210, 126, 0);
               }
-              img {
+              video {
                 width: 100%;
                 margin: 20px 0px 40px 0px;
               }
               h3 {
-                color: aliceblue;
+                color: rgb(141, 109, 60);
                 margin-bottom: 10px;
               }
               p {
                 font: 18px/1.2;
+                color: rgb(94, 83, 67);
               }
 
               &:hover {
                 h2,
                 h3 {
-                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  text-shadow: 0px 0px 10px rgba(172, 126, 0, 0.473);
                 }
               }
             }
@@ -232,7 +247,9 @@ body {
                 transition: 0.5s;
                 width: 140%;
                 height: 50px;
-                right: 0px;
+                top: 0px;
+                bottom: 0px;
+                left: 15px;
               }
 
               h2 {
@@ -259,24 +276,25 @@ body {
               height: 600px;
               h2 {
                 font: bold 24px/1;
-                color: aliceblue;
+                color: rgb(210, 126, 0);
               }
-              img {
+              video {
                 width: 100%;
                 margin: 20px 0px 40px 0px;
               }
               h3 {
-                color: aliceblue;
+                color: rgb(141, 109, 60);
                 margin-bottom: 10px;
               }
               p {
                 font: 18px/1.2;
+                color: rgb(94, 83, 67);
               }
 
               &:hover {
                 h2,
                 h3 {
-                  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+                  text-shadow: 0px 0px 10px rgba(172, 126, 0, 0.473);
                 }
               }
             }
