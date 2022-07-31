@@ -141,11 +141,11 @@ body {
           }
         }
         &.item1 {
-          transform: rotateX(0deg) translateZ(-400px);
+          transform: rotateX(0deg) translateZ(400px);
           .inner {
             div {
-              width: 800px;
-              height: 50px;
+              width: 450px;
+              height: 30px;
               float: left;
               margin-bottom: 20px;
               text-align: center;
@@ -155,22 +155,19 @@ body {
               &:nth-of-type(odd) {
                 margin-right: 20px;
               }
-              i {
+              img {
                 position: absolute;
-                color: rgb(255, 255, 255);
-                font-size: 50px;
-                text-align: center;
                 opacity: 0.7;
                 transition: 0.5s;
-                line-height: 50px;
-                left: 50px;
-                top: 30px;
+                width: 100%;
+                height: 50px;
+                right: 30px;
               }
 
-              h2 {
-                margin-top: 20px;
-                transition: 0.5s;
-              }
+              // h2 {
+              //   margin-top: 20px;
+              //   transition: 0.5s;
+              // }
 
               &:hover {
                 i,
@@ -184,10 +181,10 @@ body {
           }
         }
         &.item2 {
-          transform: rotateX(90deg) translateZ(-400px);
+          transform: rotateX(90deg) translateZ(400px);
           .inner {
             div {
-              width: 750px;
+              width: 450px;
               height: 600px;
               h2 {
                 font: bold 24px/1;
@@ -215,11 +212,11 @@ body {
           }
         }
         &.item3 {
-          transform: rotateX(180deg) translateZ(-400px);
+          transform: rotateX(180deg) translateZ(400px);
           .inner {
             div {
-              width: 800px;
-              height: 50px;
+              width: 450px;
+              height: 30px;
               float: left;
               margin-bottom: 20px;
               text-align: center;
@@ -229,17 +226,13 @@ body {
               &:nth-of-type(odd) {
                 margin-right: 20px;
               }
-              i {
+              img {
                 position: absolute;
-                color: rgb(255, 255, 255);
-                font-size: 50px;
                 opacity: 0.7;
                 transition: 0.5s;
-                text-align: center;
-                line-height: 50px;
-                line-height: 50px;
-                left: 50px;
-                top: 30px;
+                width: 140%;
+                height: 50px;
+                right: 0px;
               }
 
               h2 {
@@ -259,10 +252,10 @@ body {
           }
         }
         &.item4 {
-          transform: rotateX(270deg) translateZ(-400px);
+          transform: rotateX(270deg) translateZ(400px);
           .inner {
             div {
-              width: 750px;
+              width: 450px;
               height: 600px;
               h2 {
                 font: bold 24px/1;
